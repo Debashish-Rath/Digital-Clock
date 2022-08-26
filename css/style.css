@@ -24,7 +24,7 @@ body{
     font-size: 50px;
     font-weight:400;
     margin-bottom: 60px;
-    text-shadow: 1px 1px 1px #ff0000, 0 0 1em #0000ff, 0 0 0.2em #ff00ee;
+    text-shadow: 1px 1px #ff0000, 0 0 1em #0000ff, 0 0 0.2em #ff00ee;
 }
 
 #time{
@@ -122,9 +122,9 @@ body{
 
     #time {
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
         position: absolute;
-        top: 80px;
+        top: 100px;
     }
     
     #top_heading {
