@@ -19,10 +19,10 @@ setInterval(() => {
 
 
     // Convert 24 Hrs Clock to 12Hr Clock
-    if (h > 12)
-    {
-        h = h - 12;
-    }
+    // if (h > 12)
+    // {
+    //     h = h - 12;
+    // }
 
     // Add Zero before single digit number
     h = (h < 10) ? "0" + h: h;
