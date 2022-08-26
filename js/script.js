@@ -2,7 +2,7 @@ setInterval(() => {
     let hours = document.getElementById("hours");
     let minutes = document.getElementById("minutes");
     let seconds = document.getElementById("seconds");
-    let ampm = document.getElementById("ampm");
+    // let ampm = document.getElementById("ampm");
 
     let hr_dot = document.querySelector('.hr_dot');
     let min_dot = document.querySelector('.min_dot');
@@ -11,7 +11,7 @@ setInterval(() => {
     let h = new Date().getHours();
     let m = new Date().getMinutes();
     let s = new Date().getSeconds();
-    let am = h >= 12 ? "PM" : "AM";
+    // let am = h >= 12 ? "PM" : "AM";
 
     let hh = document.getElementById("hh")
     let mm = document.getElementById("mm")
@@ -32,7 +32,7 @@ setInterval(() => {
     hours.innerHTML = h + '<br><span>Hours</span>';
     minutes.innerHTML = m + '<br><span>Minutes</span>';
     seconds.innerHTML = s + '<br><span>Seconds</span>';
-    ampm.innerHTML = am;
+    // ampm.innerHTML = am;
 
     hh.style.strokeDashoffset = 440 - (440 * h) / 12;
     // 12 Hrs Clock

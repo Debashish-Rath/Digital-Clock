@@ -80,11 +80,11 @@ body{
     text-transform: uppercase;
 }
 
-#time .ap{
+/* #time .ap{
     position: relative;
     font-size: 1em;
     transform: translateX(-20px);
-}
+} */
 
 .dots{
     position:absolute;
