@@ -106,7 +106,7 @@ body{
 }
 
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 795px) and (min-width: 395px){
     
     #time {
         flex-direction: column;
@@ -117,14 +117,19 @@ body{
     }
 }
 
-@media screen and (max-width: 395px) {
-    
+@media screen and (max-width: 394px) {
+
     #time {
         flex-direction: column;
-        gap: 25px;
+        gap: 15px;
+        position: absolute;
+        top: 80px;
     }
     
     #top_heading {
+        position: absolute;
+        top: 16px;
+        right: -3px;
         margin-bottom: 32px;
         font-size: 36px;
     }
