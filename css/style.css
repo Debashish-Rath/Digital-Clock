@@ -121,10 +121,23 @@ body{
     
     #time {
         flex-direction: column;
+        gap: 25px;
     }
     
     #top_heading {
-        margin-bottom: 53px;
+        margin-bottom: 32px;
         font-size: 36px;
     }
+
+    .ap {
+        position: relative;
+    }
+    
+    #ampm {
+        position: absolute;
+        bottom: -30px;
+        left: -7px;
+    }
+
+    
 }
