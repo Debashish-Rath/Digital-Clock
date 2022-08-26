@@ -24,6 +24,7 @@ body{
     font-size: 50px;
     font-weight:400;
     margin-bottom: 60px;
+    text-shadow: 1px 1px 1px #ff0000, 0 0 1em #0000ff, 0 0 0.2em #ff00ee;
 }
 
 #time{
